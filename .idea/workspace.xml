@@ -1,118 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6fdf0c62-9f57-4e11-baf9-9bc4a4e15808" name="Changes" comment="forms">
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/fonts/Circe-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/fonts/Circe-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/fonts/Circe-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/fonts/Circe-ExtraBold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/fonts/Circe-ExtraBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/fonts/Circe-ExtraBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/fonts/Circe-Light.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/fonts/Circe-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/fonts/Circe-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/fonts/Circe-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/fonts/Circe-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/fonts/Circe-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/24-hours.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/brushes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/burger.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/button-arrow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/button-right-arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/calc-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/camera.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/card-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/card-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/card-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/checked.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/desktop.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/down-arrow.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/fail.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/features-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/features-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/features-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/features-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/features-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/features-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/feedback-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/feedback-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/feedback-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/gift-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/gift-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/gift-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/gift-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/gift.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/heart.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/left-arr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/main-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/main-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/main-arrow-left-1.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/main-arrow-left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/main-arrow-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/ok.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/paints.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/palette.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/portfolio-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/portfolio-10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/portfolio-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/portfolio-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/portfolio-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/portfolio-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/portfolio-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/portfolio-7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/portfolio-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/portfolio-9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/promo-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/promo-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/promo-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/reload.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/right-arr.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/scheme-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/scheme-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/scheme-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/scheme-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/scheme-5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/scheme-6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/sizes-1-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/sizes-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/sizes-2-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/sizes-2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/sizes-3-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/sizes-3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/sizes-4-1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/sizes-4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/sizes-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/slider-arrow-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/slider-left.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/spinner.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/spirt.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/styles-1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/styles-2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/styles-3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/styles-4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/styles-5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/styles-6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/styles-7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/styles-8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/telephone.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/img/whatsapp.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/less/main.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/question.inc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/question.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/assets/server.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/script.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/question.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/forms.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/sliders.js" afterDir="false" />
+    <list default="true" id="6fdf0c62-9f57-4e11-baf9-9bc4a4e15808" name="Changes" comment="files">
+      <change afterPath="$PROJECT_DIR$/src/modules/checkTextInputs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/mask.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/showMoreStyles.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/showMoreStyles1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/script.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/script.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,8 +31,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/js/main.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/modules/checkTextInputs.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/modules/forms.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/modules/mask.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/modules/modals.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/modules/showMoreStyles.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/modules/sliders.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -158,10 +58,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "true",
     "js.buildTools.gulp.gulp_package_dir": "D:/IDEA/ideaprojects7/Paintings_Art_JS/node_modules/gulp",
-    "last_opened_file_path": "D:/IDEA/ideaprojects7/Paintings_Art_JS/src/modules/forms.js",
+    "last_opened_file_path": "D:/IDEA/ideaprojects7/Paintings_Art_JS/src/modules/showMoreStyles.js",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "MTConfigurable",
-    "two.files.diff.last.used.file": "D:/IDEA/ideaprojects7/Paintings_Art_JS/src/modules/forms.js"
+    "two.files.diff.last.used.file": "D:/IDEA/ideaprojects7/Paintings_Art_JS/src/modules/showMoreStyles.js"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -326,7 +226,7 @@
       <workItem from="1675596736309" duration="935000" />
       <workItem from="1675607417121" duration="4109000" />
       <workItem from="1675614198068" duration="353000" />
-      <workItem from="1675614758633" duration="14902000" />
+      <workItem from="1675614758633" duration="18711000" />
     </task>
     <task id="LOCAL-00001" summary="forms">
       <created>1675636139333</created>
@@ -335,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675636139333</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="files">
+      <created>1675636351078</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675636351078</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -354,6 +261,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="forms" />
-    <option name="LAST_COMMIT_MESSAGE" value="forms" />
+    <MESSAGE value="files" />
+    <option name="LAST_COMMIT_MESSAGE" value="files" />
   </component>
 </project>
