@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6fdf0c62-9f57-4e11-baf9-9bc4a4e15808" name="Changes" comment="forms">
+      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/css/animate.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/css/reset.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/fonts/Circe-Bold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/fonts/Circe-Bold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/fonts/Circe-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/fonts/Circe-ExtraBold.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/fonts/Circe-ExtraBold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/fonts/Circe-ExtraBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/fonts/Circe-Light.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/fonts/Circe-Light.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/fonts/Circe-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/fonts/Circe-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/fonts/Circe-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/fonts/Circe-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/24-hours.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/brushes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/burger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/button-arrow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/button-right-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/calc-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/camera.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/card-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/card-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/card-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/checked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/desktop.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/down-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/fail.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/features-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/features-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/features-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/features-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/features-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/features-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/feedback-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/feedback-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/feedback-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/gift-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/gift-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/gift-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/gift-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/gift.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/left-arr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/main-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/main-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/main-arrow-left-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/main-arrow-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/main-arrow-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/ok.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/paints.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/palette.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/portfolio-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/portfolio-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/portfolio-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/portfolio-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/portfolio-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/portfolio-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/portfolio-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/portfolio-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/portfolio-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/portfolio-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/promo-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/promo-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/promo-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/reload.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/right-arr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/scheme-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/scheme-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/scheme-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/scheme-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/scheme-5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/scheme-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/sizes-1-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/sizes-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/sizes-2-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/sizes-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/sizes-3-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/sizes-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/sizes-4-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/sizes-4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/sizes-bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/slider-arrow-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/slider-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/spinner.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/spirt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/styles-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/styles-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/styles-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/styles-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/styles-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/styles-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/styles-7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/styles-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/telephone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/img/whatsapp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/less/main.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/question.inc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/question.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/assets/server.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/script.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/question.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/forms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/modules/sliders.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/js/main.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/modules/forms.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/modules/modals.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/modules/sliders.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpTemplates">
+    <option name="NEW_PHP_FILE_LAST_EXTENSION" value="inc" />
+  </component>
+  <component name="ProjectId" id="2LIkMvtLBJ9uZQsZf45a2CKHvQy" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "true",
+    "js.buildTools.gulp.gulp_package_dir": "D:/IDEA/ideaprojects7/Paintings_Art_JS/node_modules/gulp",
+    "last_opened_file_path": "D:/IDEA/ideaprojects7/Paintings_Art_JS/src/modules/forms.js",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "MTConfigurable",
+    "two.files.diff.last.used.file": "D:/IDEA/ideaprojects7/Paintings_Art_JS/src/modules/forms.js"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA\ideaprojects7\Paintings_Art_JS\src\modules" />
+      <recent name="D:\IDEA\ideaprojects7\Paintings_Art_JS" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DjangoTestsConfigurationType">
+      <module name="Paintings_Art_JS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Paintings_Art_JS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Paintings_Art_JS" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <module name="Paintings_Art_JS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="Paintings_Art_JS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="Paintings_Art_JS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="Paintings_Art_JS" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="build-js" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>build-js</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="default" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>default</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="watch" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>watch</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gulp.js.watch" />
+        <item itemvalue="Gulp.js.default" />
+        <item itemvalue="Gulp.js.build-js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6fdf0c62-9f57-4e11-baf9-9bc4a4e15808" name="Changes" comment="" />
+      <created>1675565949580</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675565949580</updated>
+      <workItem from="1675565957095" duration="461000" />
+      <workItem from="1675596736309" duration="935000" />
+      <workItem from="1675607417121" duration="4109000" />
+      <workItem from="1675614198068" duration="353000" />
+      <workItem from="1675614758633" duration="14902000" />
+    </task>
+    <task id="LOCAL-00001" summary="forms">
+      <created>1675636139333</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1675636139333</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="forms" />
+    <option name="LAST_COMMIT_MESSAGE" value="forms" />
+  </component>
+</project>
