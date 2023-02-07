@@ -10,7 +10,7 @@ const burger = (menuSelector, burgerSelector) => {
         } else {
             menuElem.style.display = 'none';
         }
-        
+
     });
 
     window.addEventListener('resize', () => {

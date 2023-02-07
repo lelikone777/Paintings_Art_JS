@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6fdf0c62-9f57-4e11-baf9-9bc4a4e15808" name="Changes" comment="hoverImg">
-      <change afterPath="$PROJECT_DIR$/src/js/modules/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/modules/accordion.js" afterDir="false" />
+    <list default="true" id="6fdf0c62-9f57-4e11-baf9-9bc4a4e15808" name="Changes" comment="accordion">
+      <change afterPath="$PROJECT_DIR$/src/js/modules/burger.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/script.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/script.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/modules/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +30,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/js/main.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/js/modules/1.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/js/modules/accordion.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/js/modules/burger.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/js/modules/showMoreStyles.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -62,10 +62,10 @@
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
     "js.buildTools.gulp.gulp_package_dir": "D:/IDEA/ideaprojects7/Paintings_Art_JS/node_modules/gulp",
-    "last_opened_file_path": "D:/IDEA/ideaprojects7/Paintings_Art_JS/src/assets/css",
+    "last_opened_file_path": "D:/IDEA/ideaprojects7/Paintings_Art_JS/src/js/modules/burger.js",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "MTConfigurable",
-    "two.files.diff.last.used.file": "D:/IDEA/ideaprojects7/Paintings_Art_JS/src/js/modules/accordion.js"
+    "two.files.diff.last.used.file": "D:/IDEA/ideaprojects7/Paintings_Art_JS/src/js/modules/burger.js"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -250,7 +250,7 @@
       <workItem from="1675614198068" duration="353000" />
       <workItem from="1675614758633" duration="21119000" />
       <workItem from="1675693255172" duration="1365000" />
-      <workItem from="1675700857617" duration="14194000" />
+      <workItem from="1675700857617" duration="15091000" />
     </task>
     <task id="LOCAL-00001" summary="forms">
       <created>1675636139333</created>
@@ -287,7 +287,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675783226014</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="accordion">
+      <created>1675786435278</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675786435278</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -311,6 +318,7 @@
     <MESSAGE value="showMoreStyles1" />
     <MESSAGE value="calc" />
     <MESSAGE value="hoverImg" />
-    <option name="LAST_COMMIT_MESSAGE" value="hoverImg" />
+    <MESSAGE value="accordion" />
+    <option name="LAST_COMMIT_MESSAGE" value="accordion" />
   </component>
 </project>
