@@ -2,7 +2,7 @@ const mask = (selector) => {
 
     let setCursorPosition = (pos, elem) => {
         elem.focus();
-
+        
         if (elem.setSelectionRange) {
             elem.setSelectionRange(pos, pos);
         } else if (elem.createTextRange) {
@@ -30,7 +30,7 @@ const mask = (selector) => {
         });
 
         if (event.type === 'blur') {
-            if (this.value.length === 2) {
+            if (this.value.length == 2) {
                 this.value = '';
             }
         } else {

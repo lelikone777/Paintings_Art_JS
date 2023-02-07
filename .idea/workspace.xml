@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6fdf0c62-9f57-4e11-baf9-9bc4a4e15808" name="Changes" comment="files">
-      <change afterPath="$PROJECT_DIR$/src/modules/checkTextInputs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/mask.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/showMoreStyles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/modules/showMoreStyles1.js" afterDir="false" />
+    <list default="true" id="6fdf0c62-9f57-4e11-baf9-9bc4a4e15808" name="Changes" comment="showMoreStyles1">
+      <change afterPath="$PROJECT_DIR$/dist/assets/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/modules/calc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/modules/filter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/services/requests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/question.inc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/server.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/script.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/script.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/server.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/checkTextInputs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/checkTextInputs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/forms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/forms.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/mask.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/mask.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/modals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/modals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/showMoreStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/showMoreStyles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/showMoreStyles1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/sliders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/sliders.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,13 +46,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/src/js/main.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/modules/checkTextInputs.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/modules/forms.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/modules/mask.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/modules/modals.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/modules/showMoreStyles.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/modules/sliders.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/js/modules/showMoreStyles.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -53,12 +63,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
+    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
+    "WebServerToolWindowPanel.toolwindow.show.date": "false",
+    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
+    "WebServerToolWindowPanel.toolwindow.show.size": "false",
     "js.buildTools.gulp.gulp_package_dir": "D:/IDEA/ideaprojects7/Paintings_Art_JS/node_modules/gulp",
-    "last_opened_file_path": "D:/IDEA/ideaprojects7/Paintings_Art_JS/src/modules/showMoreStyles.js",
+    "last_opened_file_path": "D:/IDEA/ideaprojects7/Paintings_Art_JS/src/js/modules",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "MTConfigurable",
     "two.files.diff.last.used.file": "D:/IDEA/ideaprojects7/Paintings_Art_JS/src/modules/showMoreStyles.js"
@@ -66,11 +82,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IDEA\ideaprojects7\Paintings_Art_JS\src\modules" />
+      <recent name="D:\IDEA\ideaprojects7\Paintings_Art_JS\src\js\modules" />
       <recent name="D:\IDEA\ideaprojects7\Paintings_Art_JS" />
+      <recent name="D:\IDEA\ideaprojects7\Paintings_Art_JS\src\js" />
+      <recent name="D:\IDEA\ideaprojects7\Paintings_Art_JS\src\assets" />
+      <recent name="D:\IDEA\ideaprojects7\Paintings_Art_JS\src\modules" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\IDEA\ideaprojects7\Paintings_Art_JS\src\js" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gulp.js.build-js">
     <configuration default="true" type="DjangoTestsConfigurationType">
       <module name="Paintings_Art_JS" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,6 +206,17 @@
       <envs />
       <method v="2" />
     </configuration>
+    <configuration name="build-prod-js" type="js.build_tools.gulp" temporary="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile>$PROJECT_DIR$/gulpfile.js</gulpfile>
+      <tasks>
+        <task>build-prod-js</task>
+      </tasks>
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="default" type="js.build_tools.gulp" temporary="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -208,6 +241,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gulp.js.build-prod-js" />
         <item itemvalue="Gulp.js.watch" />
         <item itemvalue="Gulp.js.default" />
         <item itemvalue="Gulp.js.build-js" />
@@ -226,7 +260,9 @@
       <workItem from="1675596736309" duration="935000" />
       <workItem from="1675607417121" duration="4109000" />
       <workItem from="1675614198068" duration="353000" />
-      <workItem from="1675614758633" duration="18711000" />
+      <workItem from="1675614758633" duration="21119000" />
+      <workItem from="1675693255172" duration="1365000" />
+      <workItem from="1675700857617" duration="9913000" />
     </task>
     <task id="LOCAL-00001" summary="forms">
       <created>1675636139333</created>
@@ -242,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675636351078</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="showMoreStyles1">
+      <created>1675641466989</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675641466989</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,8 +303,10 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="forms" />
     <MESSAGE value="files" />
-    <option name="LAST_COMMIT_MESSAGE" value="files" />
+    <MESSAGE value="showMoreStyles1" />
+    <option name="LAST_COMMIT_MESSAGE" value="showMoreStyles1" />
   </component>
 </project>

@@ -95,12 +95,16 @@
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _modules_modals__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../modules/modals */ "./src/modules/modals.js");
-/* harmony import */ var _modules_sliders__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../modules/sliders */ "./src/modules/sliders.js");
-/* harmony import */ var _modules_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../modules/forms */ "./src/modules/forms.js");
-/* harmony import */ var _modules_mask__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../modules/mask */ "./src/modules/mask.js");
-/* harmony import */ var _modules_checkTextInputs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../modules/checkTextInputs */ "./src/modules/checkTextInputs.js");
-/* harmony import */ var _modules_showMoreStyles__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../modules/showMoreStyles */ "./src/modules/showMoreStyles.js");
+/* harmony import */ var _modules_modals__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./modules/modals */ "./src/js/modules/modals.js");
+/* harmony import */ var _modules_sliders__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/sliders */ "./src/js/modules/sliders.js");
+/* harmony import */ var _modules_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/forms */ "./src/js/modules/forms.js");
+/* harmony import */ var _modules_mask__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/mask */ "./src/js/modules/mask.js");
+/* harmony import */ var _modules_checkTextInputs__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/checkTextInputs */ "./src/js/modules/checkTextInputs.js");
+/* harmony import */ var _modules_showMoreStyles__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/showMoreStyles */ "./src/js/modules/showMoreStyles.js");
+/* harmony import */ var _modules_calc__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./modules/calc */ "./src/js/modules/calc.js");
+/* harmony import */ var _modules_filter__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./modules/filter */ "./src/js/modules/filter.js");
+
+
 
 
 
@@ -116,16 +120,53 @@ window.addEventListener('DOMContentLoaded', () => {
   Object(_modules_forms__WEBPACK_IMPORTED_MODULE_2__["default"])();
   Object(_modules_mask__WEBPACK_IMPORTED_MODULE_3__["default"])('[name="phone"]');
   Object(_modules_checkTextInputs__WEBPACK_IMPORTED_MODULE_4__["default"])('[name="name"]');
-  Object(_modules_checkTextInputs__WEBPACK_IMPORTED_MODULE_4__["default"])('[message="message"]');
-  Object(_modules_showMoreStyles__WEBPACK_IMPORTED_MODULE_5__["default"])('.button-styles', '.styles-2');
+  Object(_modules_checkTextInputs__WEBPACK_IMPORTED_MODULE_4__["default"])('[name="message"]');
+  Object(_modules_showMoreStyles__WEBPACK_IMPORTED_MODULE_5__["default"])('.button-styles', '#styles .row');
+  Object(_modules_calc__WEBPACK_IMPORTED_MODULE_6__["default"])('#size', '#material', '#options', '.promocode', '.calc-price');
+  Object(_modules_filter__WEBPACK_IMPORTED_MODULE_7__["default"])();
 });
 
 /***/ }),
 
-/***/ "./src/modules/checkTextInputs.js":
-/*!****************************************!*\
-  !*** ./src/modules/checkTextInputs.js ***!
-  \****************************************/
+/***/ "./src/js/modules/calc.js":
+/*!********************************!*\
+  !*** ./src/js/modules/calc.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+const calc = (size, material, options, promocode, result) => {
+  const sizeBlock = document.querySelector(size),
+    materialBlock = document.querySelector(material),
+    optionsBlock = document.querySelector(options),
+    promocodeBlock = document.querySelector(promocode),
+    resultBlock = document.querySelector(result);
+  let sum = 0;
+  const calcFunc = () => {
+    sum = Math.round(+sizeBlock.value * +materialBlock.value + +optionsBlock.value);
+    if (sizeBlock.value == '' || materialBlock.value == '') {
+      resultBlock.textContent = "Пожалуйста, выберите размер и материал картины";
+    } else if (promocodeBlock.value === 'IWANTPOPART') {
+      resultBlock.textContent = Math.round(sum * 0.7);
+    } else {
+      resultBlock.textContent = sum;
+    }
+  };
+  sizeBlock.addEventListener('change', calcFunc);
+  materialBlock.addEventListener('change', calcFunc);
+  optionsBlock.addEventListener('change', calcFunc);
+  promocodeBlock.addEventListener('input', calcFunc);
+};
+/* harmony default export */ __webpack_exports__["default"] = (calc);
+
+/***/ }),
+
+/***/ "./src/js/modules/checkTextInputs.js":
+/*!*******************************************!*\
+  !*** ./src/js/modules/checkTextInputs.js ***!
+  \*******************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -145,15 +186,93 @@ const checkTextInputs = selector => {
 
 /***/ }),
 
-/***/ "./src/modules/forms.js":
-/*!******************************!*\
-  !*** ./src/modules/forms.js ***!
-  \******************************/
+/***/ "./src/js/modules/filter.js":
+/*!**********************************!*\
+  !*** ./src/js/modules/filter.js ***!
+  \**********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+const filter = () => {
+  const menu = document.querySelector('.portfolio-menu'),
+    items = menu.querySelectorAll('li'),
+    btnAll = menu.querySelector('.all'),
+    btnLovers = menu.querySelector('.lovers'),
+    btnChef = menu.querySelector('.chef'),
+    btnGirl = menu.querySelector('.girl'),
+    btnGuy = menu.querySelector('.guy'),
+    btnGrandmother = menu.querySelector('.grandmother'),
+    btnGranddad = menu.querySelector('.granddad'),
+    wrapper = document.querySelector('.portfolio-wrapper'),
+    markAll = wrapper.querySelectorAll('.all'),
+    markGirl = wrapper.querySelectorAll('.girl'),
+    markLovers = wrapper.querySelectorAll('.lovers'),
+    markChef = wrapper.querySelectorAll('.chef'),
+    markGuy = wrapper.querySelectorAll('.guy'),
+    no = document.querySelector('.portfolio-no');
+  const typeFilter = markType => {
+    markAll.forEach(mark => {
+      mark.style.display = 'none';
+      mark.classList.remove('animated', 'fadeIn');
+    });
+    no.style.display = 'none';
+    no.classList.remove('animated', 'fadeIn');
+    if (markType) {
+      markType.forEach(mark => {
+        mark.style.display = 'block';
+        mark.classList.add('animated', 'fadeIn');
+      });
+    } else {
+      no.style.display = 'block';
+      no.classList.add('animated', 'fadeIn');
+    }
+  };
+  btnAll.addEventListener('click', () => {
+    typeFilter(markAll);
+  });
+  btnLovers.addEventListener('click', () => {
+    typeFilter(markLovers);
+  });
+  btnChef.addEventListener('click', () => {
+    typeFilter(markChef);
+  });
+  btnGuy.addEventListener('click', () => {
+    typeFilter(markGuy);
+  });
+  btnGirl.addEventListener('click', () => {
+    typeFilter(markGirl);
+  });
+  btnGrandmother.addEventListener('click', () => {
+    typeFilter();
+  });
+  btnGranddad.addEventListener('click', () => {
+    typeFilter();
+  });
+  menu.addEventListener('click', e => {
+    let target = e.target;
+    if (target && target.tagName == 'LI') {
+      items.forEach(btn => btn.classList.remove('active'));
+      target.classList.add('active');
+    }
+  });
+};
+/* harmony default export */ __webpack_exports__["default"] = (filter);
+
+/***/ }),
+
+/***/ "./src/js/modules/forms.js":
+/*!*********************************!*\
+  !*** ./src/js/modules/forms.js ***!
+  \*********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _services_requests__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../services/requests */ "./src/js/services/requests.js");
+
 const forms = () => {
   const form = document.querySelectorAll('form'),
     inputs = document.querySelectorAll('input'),
@@ -169,13 +288,6 @@ const forms = () => {
   const path = {
     designer: 'assets/server.php',
     question: 'assets/question.php'
-  };
-  const postData = async (url, data) => {
-    let res = await fetch(url, {
-      method: "POST",
-      body: data
-    });
-    return await res.text();
   };
   const clearInputs = () => {
     inputs.forEach(item => {
@@ -216,7 +328,7 @@ const forms = () => {
       let api;
       item.closest('.popup-design') || item.classList.contains('calc_form') ? api = path.designer : api = path.question;
       console.log(api);
-      postData(api, formData).then(res => {
+      Object(_services_requests__WEBPACK_IMPORTED_MODULE_0__["postData"])(api, formData).then(res => {
         console.log(res);
         statusImg.setAttribute('src', message.ok);
         textMessage.textContent = message.success;
@@ -239,10 +351,10 @@ const forms = () => {
 
 /***/ }),
 
-/***/ "./src/modules/mask.js":
-/*!*****************************!*\
-  !*** ./src/modules/mask.js ***!
-  \*****************************/
+/***/ "./src/js/modules/mask.js":
+/*!********************************!*\
+  !*** ./src/js/modules/mask.js ***!
+  \********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -273,7 +385,7 @@ const mask = selector => {
       return /[_\d]/.test(a) && i < val.length ? val.charAt(i++) : i >= val.length ? '' : a;
     });
     if (event.type === 'blur') {
-      if (this.value.length === 2) {
+      if (this.value.length == 2) {
         this.value = '';
       }
     } else {
@@ -291,10 +403,10 @@ const mask = selector => {
 
 /***/ }),
 
-/***/ "./src/modules/modals.js":
-/*!*******************************!*\
-  !*** ./src/modules/modals.js ***!
-  \*******************************/
+/***/ "./src/js/modules/modals.js":
+/*!**********************************!*\
+  !*** ./src/js/modules/modals.js ***!
+  \**********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -308,8 +420,7 @@ const modals = () => {
       modal = document.querySelector(modalSelector),
       close = document.querySelector(closeSelector),
       windows = document.querySelectorAll('[data-modal]'),
-      scroll = calcScroll(),
-      present = document.querySelector('.fixed-gift');
+      scroll = calcScroll();
     trigger.forEach(item => {
       item.addEventListener('click', e => {
         if (e.target) {
@@ -326,7 +437,6 @@ const modals = () => {
         modal.style.display = "block";
         document.body.style.overflow = "hidden";
         document.body.style.marginRight = `${scroll}px`;
-        present.style.marginRight = `${scroll}px`;
       });
     });
     close.addEventListener('click', () => {
@@ -336,7 +446,6 @@ const modals = () => {
       modal.style.display = "none";
       document.body.style.overflow = "";
       document.body.style.marginRight = `0px`;
-      present.style.marginRight = `0px`;
     });
     modal.addEventListener('click', e => {
       if (e.target === modal) {
@@ -354,7 +463,7 @@ const modals = () => {
       let display;
       document.querySelectorAll('[data-modal]').forEach(item => {
         if (getComputedStyle(item).display !== 'none') {
-          display = 'block';
+          display = "block";
         }
       });
       if (!display) {
@@ -378,54 +487,83 @@ const modals = () => {
   }
   function openByScroll(selector) {
     window.addEventListener('scroll', () => {
-      let scrollHeight = Math.max(document.documentElement.clientHeight, document.body.clientHeight) - 5;
-      if (!btnPressed && window.pageXOffset + document.documentElement.clientHeight >= scrollHeight - 1) {
+      let scrollHeight = Math.max(document.documentElement.scrollHeight, document.body.scrollHeight);
+      if (!btnPressed && window.pageYOffset + document.documentElement.clientHeight >= scrollHeight) {
         document.querySelector(selector).click();
       }
     });
   }
   bindModal('.button-design', '.popup-design', '.popup-design .popup-close');
   bindModal('.button-consultation', '.popup-consultation', '.popup-consultation .popup-close');
-  bindModal('.fixed-gift', '.popup-gift', '.popup-gift .popup-close', 'true');
+  bindModal('.fixed-gift', '.popup-gift', '.popup-gift .popup-close', true);
   openByScroll('.fixed-gift');
-  showModalByTime('.popup-consultation', 60000);
+  // showModalByTime('.popup-consultation', 5000);
 };
+
 /* harmony default export */ __webpack_exports__["default"] = (modals);
 
 /***/ }),
 
-/***/ "./src/modules/showMoreStyles.js":
-/*!***************************************!*\
-  !*** ./src/modules/showMoreStyles.js ***!
-  \***************************************/
+/***/ "./src/js/modules/showMoreStyles.js":
+/*!******************************************!*\
+  !*** ./src/js/modules/showMoreStyles.js ***!
+  \******************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-const showMoreStyles = (trigger, styles) => {
-  const cards = document.querySelectorAll(styles),
-    btn = document.querySelector(trigger);
-  cards.forEach(card => {
-    card.classList.add('animated', 'fadeInUp');
+/* harmony import */ var _services_requests__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../services/requests */ "./src/js/services/requests.js");
+
+const showMoreStyles = (trigger, wrapper) => {
+  const btn = document.querySelector(trigger);
+
+  // cards.forEach(card => {
+  //     card.classList.add('animated', 'fadeInUp');
+  // });
+
+  // btn.addEventListener('click', () => {
+  //     cards.forEach(card => {
+  //         card.classList.remove('hidden-lg', 'hidden-md', 'hidden-sm', 'hidden-xs');
+  //         card.classList.add('col-sm-3', 'col-sm-offset-0', 'col-xs-10', 'col-xs-offset-1');
+  //     });
+  //     // btn.style.display = 'none';
+  //     btn.remove();
+  // });
+
+  btn.addEventListener('click', function () {
+    Object(_services_requests__WEBPACK_IMPORTED_MODULE_0__["getResource"])('assets/db.json').then(res => createCards(res.styles)).catch(error => console.log(error));
+    this.remove();
   });
-  btn.addEventListener('click', () => {
-    cards.forEach(card => {
-      card.classList.remove('hidden-lg', 'hidden-md', 'hidden-sm', 'hidden-xs');
-      card.classList.add('col-sm-3', 'col-sm-offset-0', 'col-xs-10', 'col-xs-offset-1');
+  function createCards(response) {
+    response.forEach(_ref => {
+      let {
+        src,
+        title,
+        link
+      } = _ref;
+      let card = document.createElement('div');
+      card.classList.add('animated', 'fadeInUp', 'col-sm-3', 'col-sm-offset-0', 'col-xs-10', 'col-xs-offset-1');
+      card.innerHTML = `
+                <div class="styles-block">
+                    <img src=${src} alt="style">
+                    <h4>${title}</h4>
+                    <a href=${link}>Подробнее</a>
+                </div>
+            `;
+      document.querySelector(wrapper).appendChild(card);
     });
-    // btn.style.display = 'none';
-    btn.remove();
-  });
+  }
+  ;
 };
 /* harmony default export */ __webpack_exports__["default"] = (showMoreStyles);
 
 /***/ }),
 
-/***/ "./src/modules/sliders.js":
-/*!********************************!*\
-  !*** ./src/modules/sliders.js ***!
-  \********************************/
+/***/ "./src/js/modules/sliders.js":
+/*!***********************************!*\
+  !*** ./src/js/modules/sliders.js ***!
+  \***********************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -443,7 +581,7 @@ const sliders = (slides, dir, prev, next) => {
       slideIndex = items.length;
     }
     items.forEach(item => {
-      item.classList.add('animated');
+      item.classList.add("animated");
       item.style.display = "none";
     });
     items[slideIndex - 1].style.display = 'block';
@@ -465,21 +603,19 @@ const sliders = (slides, dir, prev, next) => {
       items[slideIndex - 1].classList.remove('slideInRight');
       items[slideIndex - 1].classList.add('slideInLeft');
     });
-  } catch (e) {
-    console.log(e);
-  }
+  } catch (e) {}
   function activateAnimation() {
     if (dir === 'vertical') {
       paused = setInterval(function () {
         plusSlides(1);
-        items[slideIndex - 1].classList.add('slideInLeft');
-      }, 6000);
+        items[slideIndex - 1].classList.add('slideInDown');
+      }, 3000);
     } else {
       paused = setInterval(function () {
         plusSlides(1);
         items[slideIndex - 1].classList.remove('slideInRight');
         items[slideIndex - 1].classList.add('slideInLeft');
-      }, 6000);
+      }, 3000);
     }
   }
   activateAnimation();
@@ -491,6 +627,35 @@ const sliders = (slides, dir, prev, next) => {
   });
 };
 /* harmony default export */ __webpack_exports__["default"] = (sliders);
+
+/***/ }),
+
+/***/ "./src/js/services/requests.js":
+/*!*************************************!*\
+  !*** ./src/js/services/requests.js ***!
+  \*************************************/
+/*! exports provided: postData, getResource */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "postData", function() { return postData; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "getResource", function() { return getResource; });
+const postData = async (url, data) => {
+  let res = await fetch(url, {
+    method: "POST",
+    body: data
+  });
+  return await res.text();
+};
+const getResource = async url => {
+  let res = await fetch(url);
+  if (!res.ok) {
+    throw new Error(`Could not fetch ${url}, status: ${res.status}`);
+  }
+  return await res.json();
+};
+
 
 /***/ })
 

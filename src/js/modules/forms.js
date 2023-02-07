@@ -1,8 +1,10 @@
+import {postData} from '../services/requests';
+
 const forms = () => {
     const form = document.querySelectorAll('form'),
-        inputs = document.querySelectorAll('input'),
-        upload = document.querySelectorAll('[name="upload"]');
-
+          inputs = document.querySelectorAll('input'),
+          upload = document.querySelectorAll('[name="upload"]');
+    
     const message = {
         loading: 'Загрузка...',
         success: 'Спасибо! Скоро мы с вами свяжемся',
@@ -15,15 +17,6 @@ const forms = () => {
     const path = {
         designer: 'assets/server.php',
         question: 'assets/question.php'
-    };
-
-    const postData = async (url, data) => {
-        let res = await fetch(url, {
-            method: "POST",
-            body: data
-        });
-
-        return await res.text();
     };
 
     const clearInputs = () => {
@@ -59,6 +52,7 @@ const forms = () => {
             setTimeout(() => {
                 item.style.display = 'none';
             }, 400);
+            
 
             let statusImg = document.createElement('img');
             statusImg.setAttribute('src', message.spinner);
