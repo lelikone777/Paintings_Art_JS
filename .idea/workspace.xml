@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6fdf0c62-9f57-4e11-baf9-9bc4a4e15808" name="Changes" comment="calc">
+    <list default="true" id="6fdf0c62-9f57-4e11-baf9-9bc4a4e15808" name="Changes" comment="hoverImg">
       <change afterPath="$PROJECT_DIR$/src/js/modules/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/modules/pictureSize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/modules/accordion.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/script.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/script.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -28,6 +31,8 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/js/main.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/js/modules/accordion.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/js/modules/showMoreStyles.js" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -47,6 +52,7 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "true",
@@ -56,19 +62,19 @@
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
     "js.buildTools.gulp.gulp_package_dir": "D:/IDEA/ideaprojects7/Paintings_Art_JS/node_modules/gulp",
-    "last_opened_file_path": "D:/IDEA/ideaprojects7/Paintings_Art_JS/src/js/modules/pictureSize.js",
+    "last_opened_file_path": "D:/IDEA/ideaprojects7/Paintings_Art_JS/src/assets/css",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "MTConfigurable",
-    "two.files.diff.last.used.file": "D:/IDEA/ideaprojects7/Paintings_Art_JS/src/js/modules/pictureSize.js"
+    "two.files.diff.last.used.file": "D:/IDEA/ideaprojects7/Paintings_Art_JS/src/js/modules/accordion.js"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEA\ideaprojects7\Paintings_Art_JS\src\assets\css" />
       <recent name="D:\IDEA\ideaprojects7\Paintings_Art_JS\src\js\modules" />
       <recent name="D:\IDEA\ideaprojects7\Paintings_Art_JS" />
       <recent name="D:\IDEA\ideaprojects7\Paintings_Art_JS\src\js" />
       <recent name="D:\IDEA\ideaprojects7\Paintings_Art_JS\src\assets" />
-      <recent name="D:\IDEA\ideaprojects7\Paintings_Art_JS\src\modules" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\IDEA\ideaprojects7\Paintings_Art_JS\src\js" />
@@ -244,7 +250,7 @@
       <workItem from="1675614198068" duration="353000" />
       <workItem from="1675614758633" duration="21119000" />
       <workItem from="1675693255172" duration="1365000" />
-      <workItem from="1675700857617" duration="11331000" />
+      <workItem from="1675700857617" duration="14194000" />
     </task>
     <task id="LOCAL-00001" summary="forms">
       <created>1675636139333</created>
@@ -274,7 +280,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675781789635</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="hoverImg">
+      <created>1675783226014</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675783226014</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,6 +310,7 @@
     <MESSAGE value="files" />
     <MESSAGE value="showMoreStyles1" />
     <MESSAGE value="calc" />
-    <option name="LAST_COMMIT_MESSAGE" value="calc" />
+    <MESSAGE value="hoverImg" />
+    <option name="LAST_COMMIT_MESSAGE" value="hoverImg" />
   </component>
 </project>
