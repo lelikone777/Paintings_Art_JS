@@ -1,31 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6fdf0c62-9f57-4e11-baf9-9bc4a4e15808" name="Changes" comment="showMoreStyles1">
-      <change afterPath="$PROJECT_DIR$/dist/assets/db.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/db.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/modules/calc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/modules/filter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js/services/requests.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+    <list default="true" id="6fdf0c62-9f57-4e11-baf9-9bc4a4e15808" name="Changes" comment="calc">
+      <change afterPath="$PROJECT_DIR$/src/js/modules/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/modules/pictureSize.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/question.inc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/assets/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/server.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/script.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/script.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/server.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/server.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/checkTextInputs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/checkTextInputs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/forms.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/forms.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/mask.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/mask.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/modals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/modals.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/showMoreStyles.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/showMoreStyles.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/showMoreStyles1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/sliders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/sliders.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,10 +56,10 @@
     "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
     "WebServerToolWindowPanel.toolwindow.show.size": "false",
     "js.buildTools.gulp.gulp_package_dir": "D:/IDEA/ideaprojects7/Paintings_Art_JS/node_modules/gulp",
-    "last_opened_file_path": "D:/IDEA/ideaprojects7/Paintings_Art_JS/src/js/modules",
+    "last_opened_file_path": "D:/IDEA/ideaprojects7/Paintings_Art_JS/src/js/modules/pictureSize.js",
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "MTConfigurable",
-    "two.files.diff.last.used.file": "D:/IDEA/ideaprojects7/Paintings_Art_JS/src/modules/showMoreStyles.js"
+    "two.files.diff.last.used.file": "D:/IDEA/ideaprojects7/Paintings_Art_JS/src/js/modules/pictureSize.js"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -262,7 +244,7 @@
       <workItem from="1675614198068" duration="353000" />
       <workItem from="1675614758633" duration="21119000" />
       <workItem from="1675693255172" duration="1365000" />
-      <workItem from="1675700857617" duration="9913000" />
+      <workItem from="1675700857617" duration="11331000" />
     </task>
     <task id="LOCAL-00001" summary="forms">
       <created>1675636139333</created>
@@ -285,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675641466989</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="calc">
+      <created>1675781789635</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675781789635</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -307,6 +296,7 @@
     <MESSAGE value="forms" />
     <MESSAGE value="files" />
     <MESSAGE value="showMoreStyles1" />
-    <option name="LAST_COMMIT_MESSAGE" value="showMoreStyles1" />
+    <MESSAGE value="calc" />
+    <option name="LAST_COMMIT_MESSAGE" value="calc" />
   </component>
 </project>
