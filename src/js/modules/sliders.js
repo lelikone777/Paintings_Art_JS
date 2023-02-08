@@ -48,8 +48,8 @@ const sliders = (slides, dir, prev, next) => {
         if (dir === 'vertical') {
             paused = setInterval(function() {
                 plusSlides(1);
-                items[slideIndex - 1].classList.add('slideInDown');
-            }, 3000);
+                items[slideIndex - 1].classList.add('slideInLeft');
+            }, 8000);
         } else {
             paused = setInterval(function() {
                 plusSlides(1);

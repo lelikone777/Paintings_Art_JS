@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6fdf0c62-9f57-4e11-baf9-9bc4a4e15808" name="Changes" comment="burger">
-      <change afterPath="$PROJECT_DIR$/src/js/modules/scrolling.js" afterDir="false" />
+    <list default="true" id="6fdf0c62-9f57-4e11-baf9-9bc4a4e15808" name="Changes" comment="scrollTo">
+      <change afterPath="$PROJECT_DIR$/src/js/modules/drop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
@@ -11,7 +11,9 @@
       <change beforePath="$PROJECT_DIR$/src/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/modules/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/modules/1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/modules/burger.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/burger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/modules/sliders.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/modules/sliders.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +36,9 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/js/main.js" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/src/js/modules/1.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/js/modules/accordion.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/js/modules/burger.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/js/modules/drop.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/js/modules/scrolling.js" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/src/js/modules/showMoreStyles.js" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -53,30 +55,30 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "true",
-    "WebServerToolWindowPanel.toolwindow.highlight.mappings": "true",
-    "WebServerToolWindowPanel.toolwindow.highlight.symlinks": "true",
-    "WebServerToolWindowPanel.toolwindow.show.date": "false",
-    "WebServerToolWindowPanel.toolwindow.show.permissions": "false",
-    "WebServerToolWindowPanel.toolwindow.show.size": "false",
-    "js.buildTools.gulp.gulp_package_dir": "D:/IDEA/ideaprojects7/Paintings_Art_JS/node_modules/gulp",
-    "last_opened_file_path": "D:/IDEA/ideaprojects7/Paintings_Art_JS/src/js/modules/burger.js",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "MTConfigurable",
-    "two.files.diff.last.used.file": "D:/IDEA/ideaprojects7/Paintings_Art_JS/src/js/modules/burger.js"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.mappings&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.highlight.symlinks&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.date&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.permissions&quot;: &quot;false&quot;,
+    &quot;WebServerToolWindowPanel.toolwindow.show.size&quot;: &quot;false&quot;,
+    &quot;js.buildTools.gulp.gulp_package_dir&quot;: &quot;D:/IDEA/ideaprojects7/Paintings_Art_JS/node_modules/gulp&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/IDEA/ideaprojects7/Paintings_Art_JS/src/js/modules/drop.js&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MTConfigurable&quot;,
+    &quot;two.files.diff.last.used.file&quot;: &quot;D:/IDEA/ideaprojects7/Paintings_Art_JS/src/js/modules/drop.js&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IDEA\ideaprojects7\Paintings_Art_JS\src\assets\css" />
       <recent name="D:\IDEA\ideaprojects7\Paintings_Art_JS\src\js\modules" />
+      <recent name="D:\IDEA\ideaprojects7\Paintings_Art_JS\src\assets\css" />
       <recent name="D:\IDEA\ideaprojects7\Paintings_Art_JS" />
       <recent name="D:\IDEA\ideaprojects7\Paintings_Art_JS\src\js" />
       <recent name="D:\IDEA\ideaprojects7\Paintings_Art_JS\src\assets" />
@@ -255,7 +257,7 @@
       <workItem from="1675614198068" duration="353000" />
       <workItem from="1675614758633" duration="21119000" />
       <workItem from="1675693255172" duration="1365000" />
-      <workItem from="1675700857617" duration="20519000" />
+      <workItem from="1675700857617" duration="24557000" />
     </task>
     <task id="LOCAL-00001" summary="forms">
       <created>1675636139333</created>
@@ -306,7 +308,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675787461212</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="scrollTo">
+      <created>1675809108794</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675809108794</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,6 +341,7 @@
     <MESSAGE value="hoverImg" />
     <MESSAGE value="accordion" />
     <MESSAGE value="burger" />
-    <option name="LAST_COMMIT_MESSAGE" value="burger" />
+    <MESSAGE value="scrollTo" />
+    <option name="LAST_COMMIT_MESSAGE" value="scrollTo" />
   </component>
 </project>
